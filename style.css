@@ -1,0 +1,115 @@
+body{
+background-color: #0f5f5f;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    
+}
+h2{
+    color: rgb(5, 0, 0);
+    text-align: center;
+    font-family: unset;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mapdiv{
+ 
+display: flex;
+/* align-items: flex-start; *SS/
+    align-items: flex-end;
+    align-items: center;
+    /*flex-direction: column;*/
+flex-wrap: wrap;
+align-content: space-between;
+justify-content: space-evenly;
+}
+.mapdiv path{
+    fill: #5F9EA0;
+    stroke: #fffefd;
+    stroke-width: 1PX;
+    transition: fill 0.1s;
+    }
+.mapdiv :hover {
+        fill: #000000;
+    }
+.box-0{
+
+width: 500px;
+height: 600px;
+padding: 1%;
+
+}
+.box-1{
+width: 200px;
+height: 400px;
+padding: 0%;
+
+}
+.box-2{
+width: 700px;
+height: 800px;
+font-family: cursive;
+color: white;
+font-size: 14px;
+}
+.dev1 {
+    fill: black;
+  }
+.dev2 {
+    fill: black;
+  }
+  .removed {
+    display: none;
+  }
+button{
+color: rgba(255, 255, 255, 0.986);
+background: rgba(52, 187, 228, 0.308);
+border: none;
+
+/* width: 5%; */
+text-align: left;
+}
+
+button {
+    position: relative;
+    color: rgb(7, 60, 82);
+    font-size: 12pt;
+    background: rgba(255, 255, 255, 0.425);
+    border: none;
+    outline: none;
+    left: 0%;
+    width: 160px;
+    text-align: left;
+  }
+button.hover {
+    fill: rgb(223, 228, 230);
+}
+/*
+#sidebar {
+  text-align: left;
+  float: right;
+  width: 10%;
+  background: none;
+  color: fff;
+  padding: 0px;
+  box-sizing: border-box;
+}
+*/
+.button {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 15pt;
+  background-size: 20%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1%;
+}
+.button:hover {
+  color: rgb(74, 133, 59);
+  background-color: black;
+}
